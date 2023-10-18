@@ -1,0 +1,76 @@
+.fourpillars{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        margin-top: 50px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        height: 200px;
+        justify-content: center;
+margin-bottom: 50px;
+   flex:1;
+   
+p{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+
+}
+    }
+    .bottomm{
+
+flex:4;
+display: flex;
+width: 100%;
+justify-content: space-between;
+gap:20px;
+        .p1{
+
+
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.p1text{
+text-align: center;
+font-size: 25px;
+}
+.divide{
+   
+    height: 0px;
+}
+p{
+    line-height: 40px;
+}
+   }
+
+   .p2,.p3,.p4{
+
+    
+    img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .p2text,.p3text,.p4text{
+        text-align: center;
+        font-size: 25px;
+       
+        }
+        
+        .divide{
+            height: 0px;
+    }
+    
+    p{
+        line-height: 40px;
+    }
+       
+    }
+}
+
+}
